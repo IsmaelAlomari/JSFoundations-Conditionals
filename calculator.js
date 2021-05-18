@@ -5,23 +5,24 @@ const prompt = require("prompt-sync")(); // Please don't touch me :)
 //const name = prompt("What's your name? ");
 //console.log(`Hi, I'm ${name}.`);
 
-let = prompt("enter first num1");
-let  = prompt ("enter second num2");
- num1 =  (5 )
- num2 =  (3)
+let num1 = prompt("enter first num1");
+let num2 = prompt ("enter second num2");
+ 
+ let opreatr  = prompt ("Please choose the operation (+, -, /, *)")
 
- let opreater  = prompt ("Please choose the operation (+, -, /, *)")
+num1 = parseInt ("num1")
+ num2 = parseInt ("num2")
 
-if (opreater === "+") {
+if (opreatr === "+") {
     console.log (num1 + num2)
 }
- else if (opreater === "-") {
+ else if (opreatr === "-") {
      console.log (num1 - num2)
  }
- else if ( opreater === "*") {
-     console.log ( num1 * num2 ) 
+ else if ( opreatr === "*") {
+     console.log (num1 * num2) 
  }
 
- else if(opreater === "/") {
+ else if(opreatr === "/") {
      console.log ( num1 /num2)
  }
