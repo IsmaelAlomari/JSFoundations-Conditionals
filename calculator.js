@@ -10,8 +10,8 @@ let num2 = prompt ("enter second num2");
  
  let opreatr  = prompt ("Please choose the operation (+, -, /, *)")
 
-num1 = parseInt ("num1")
- num2 = parseInt ("num2")
+num1 = parseInt (num1)
+num2 = parseInt (num2)
 
 if (opreatr === "+") {
     console.log (num1 + num2)
@@ -24,5 +24,7 @@ if (opreatr === "+") {
  }
 
  else if(opreatr === "/") {
-     console.log ( num1 /num2)
+     console.log (num1 /num2)
  }
+
+ else console.log ("the operation is not valid")
